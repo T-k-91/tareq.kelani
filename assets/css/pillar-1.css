@@ -9876,3 +9876,14 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 .certificate-image {
   max-width: 85%;
 }
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: 48%; /* Adjust the width as needed */
+  margin-bottom: 20px;
+  /* Add other styles as needed */
+}
